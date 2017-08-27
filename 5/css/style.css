@@ -1,0 +1,155 @@
+body {
+  background: url("../img/ice-cream-1.png") top center no-repeat #8da799;
+  line-height: 12px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 1146px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 16px;
+  line-height: 12px;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
+
+.visually-hidden {
+  font-size: 0;
+}
+
+.wrapper-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side-wrapper-menu {
+  display: flex;
+}
+
+.site-menu {
+  display: flex;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.site-menu-section a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.site-menu-hover a:hover {
+  background: #fbded8;
+  color: #323232;
+}
+
+.header-button, .header-button, .header-button {
+  background: #a0b4a9;
+}
+
+.number {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.promo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.promo-berry {
+  background: url("../img/rawberrie-banner.png") no-repeat;
+  width: 560px;
+  margin-right: 26px;
+}
+
+.promo-chocolate {
+  background: url("../img/chocolate-banner.png") no-repeat;
+  width: 560px;
+}
+
+.popular {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.catalog-item {
+  width: 267px;
+  margin-right: 26px;
+  text-align: center;
+}
+
+.catalog-item:last-child {
+  margin-right: 0;
+}
+
+.catalog-item h2 {
+  text-decoration: underline;
+}
+
+.about-us {
+  background: url("../img/wafle.jpg");
+  border-radius: 5px;
+  width: 100%;
+  color: #000;
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.our-blog {
+  width: 560px;
+  margin-right: 26px;
+  background: url("../img/strawberry.png") no-repeat;
+  color: #000;
+}
+
+.our-blog a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.subscribe-us {
+  width: 560px;
+  color: #000;
+  background: #f8f7f4;
+}
+
+.site-info {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social-net {
+  display: flex;
+}
+
+.last a {
+  text-decoration: underline;
+}
